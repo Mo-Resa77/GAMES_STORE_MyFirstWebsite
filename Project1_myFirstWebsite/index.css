@@ -1,0 +1,114 @@
+/********************************home-file**************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+      font-family: "Space Grotesk", sans-serif ;
+      padding: 0;
+      margin:0;
+
+}
+/*_______*/
+a{
+     color:white;
+     text-decoration: none;
+}
+/*_______*/
+body{
+background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(9, 9, 9));
+height:100vh;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.container {
+    background-image: linear-gradient(to right ,rgba(3, 3, 3, 0.741) 70%,rgb(9, 9, 9) ),
+     url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; /* Ensure the background image covers the container */
+    background-position: center; /* Center the background image */
+    width: 90%;
+    height: 640px;
+  
+}
+.container:hover{
+ 
+    background-image: linear-gradient(to top ,rgba(14, 14, 15, 0.741) 70% , transparent),
+    url(background.jpg);
+}
+
+/***********************/
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding: 10px
+}
+.logo{
+font-family: "Silkscreen", sans-serif;
+font-size: 25px;
+font-style: italic;
+}.logo:hover{
+
+scale:2%;
+
+}
+
+/***********************************************/
+
+ul{
+     width:60%;
+    list-style:none;
+    display:flex;
+    justify-content:space-evenly ; 
+}
+
+ul a{
+
+    border-bottom: 2px solid transparent ;
+    font-size:20px ;
+    transition: 0.5s;
+}
+  ul a:hover{
+
+border-bottom-color:white ;
+font-size:24px ;
+transition: 0.5s;
+  }
+
+/************************************************************/
+
+
+.content{
+    color:white;
+   width:50%;
+   margin-top:100px;
+   padding: 30px;
+}
+
+.content h2{
+
+font-size: 75px;
+text-transform: uppercase;
+font-style: italic;
+}
+.content p{
+
+letter-spacing: 2px;
+width:450px;
+padding: 20px 0;
+}
+p::selection{
+
+background-color:red ;
+
+}
+
+/*********************************/
+
+/********************************************************************************************/
+
+

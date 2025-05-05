@@ -1,0 +1,65 @@
+
+/* /////////////////////////contact//////page//////////////////////////////////////////////////////////// */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #3498db, #8e44ad); 
+    color: #fff; 
+}
+h1{ color:white}
+/* /////////////////////////////////////////////////////////////////// */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    border-radius: 10px;
+}
+/* ///////////////////////////////////////////////////////////////////////////// */
+h1 {
+    text-align: center;
+}
+/* //////////////////////////////////////////////////////////////// */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-right:2px ;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-right:20px ;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ddd;
+    font-size: 24px;
+    transition: 0.5;
+}

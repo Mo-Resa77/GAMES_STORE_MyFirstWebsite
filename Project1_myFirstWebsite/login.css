@@ -1,0 +1,43 @@
+
+/*---------------------------login-- --page------------------------------------------ */
+body{
+ background-image: linear-gradient(to right ,rgba(49, 45, 45, 0.741) 70%,rgb(40, 38, 38) ),
+ url(login.jpg);
+ background-size: contain; 
+ background-position: center;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ height:100vh;
+}
+form {
+    background-color: rgba(0, 6, 11, 0.792);
+    border-radius: 10px; 
+    padding: 20px;
+    width: 300px; 
+    margin: auto; 
+} /*----------------------------- */
+th{
+
+color:white;
+
+}
+.i {
+    color: azure;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    text-align: left; 
+} th button:hover{
+    cursor: grab;
+    transition: 0.5;
+    font-size: 19px ;
+}
+/* ------------------------ */
+h2:hover{
+transition:0.5;
+transition-timing-function: ease;
+font-size:20px ;
+cursor: grab;
+}
+/* ------------------------------------------ */
